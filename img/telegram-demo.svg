@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 450" fill="none">
+  <!-- Phone frame -->
+  <rect x="50" y="20" width="280" height="420" rx="30" fill="#1a1a2e"/>
+  <rect x="60" y="35" width="260" height="390" rx="20" fill="#faf5ff"/>
+
+  <!-- Notch -->
+  <rect x="160" y="40" width="60" height="14" rx="7" fill="#1a1a2e"/>
+
+  <!-- Telegram header -->
+  <rect x="60" y="55" width="260" height="60" fill="#0088cc"/>
+  <circle cx="85" cy="85" r="15" fill="white"/>
+  <text x="85" y="92" text-anchor="middle" fill="#0088cc" font-size="18" font-weight="bold" font-family="Inter">🤖</text>
+  <text x="110" y="80" fill="white" font-size="14" font-weight="bold" font-family="Inter">Мій AI-асистент</text>
+  <text x="110" y="98" fill="white" font-size="10" font-family="Inter" opacity="0.8">online</text>
+
+  <!-- Messages -->
+  <!-- User message -->
+  <rect x="200" y="135" width="110" height="35" rx="12" fill="#0088cc"/>
+  <text x="210" y="150" fill="white" font-size="11" font-family="Inter">Привіт! Як</text>
+  <text x="210" y="163" fill="white" font-size="11" font-family="Inter">справи?</text>
+  <text x="305" y="178" fill="#71717a" font-size="8" font-family="Inter" text-anchor="end">14:32</text>
+
+  <!-- Bot response -->
+  <rect x="68" y="185" width="190" height="60" rx="12" fill="white" stroke="#e4e4e7" stroke-width="1"/>
+  <text x="78" y="200" fill="#1a1a2e" font-size="11" font-family="Inter">Привіт! 👋 Я — твій</text>
+  <text x="78" y="213" fill="#1a1a2e" font-size="11" font-family="Inter">особистий AI-асистент.</text>
+  <text x="78" y="226" fill="#1a1a2e" font-size="11" font-family="Inter">Готовий допомогти з</text>
+  <text x="78" y="239" fill="#1a1a2e" font-size="11" font-family="Inter">будь-яким питанням!</text>
+
+  <!-- User message 2 -->
+  <rect x="170" y="260" width="140" height="50" rx="12" fill="#0088cc"/>
+  <text x="180" y="275" fill="white" font-size="11" font-family="Inter">Склади план мого</text>
+  <text x="180" y="288" fill="white" font-size="11" font-family="Inter">робочого тижня,</text>
+  <text x="180" y="301" fill="white" font-size="11" font-family="Inter">будь ласка</text>
+
+  <!-- Bot response 2 -->
+  <rect x="68" y="325" width="220" height="60" rx="12" fill="white" stroke="#e4e4e7" stroke-width="1"/>
+  <text x="78" y="340" fill="#1a1a2e" font-size="11" font-family="Inter">📅 Понеділок:</text>
+  <text x="78" y="353" fill="#1a1a2e" font-size="11" font-family="Inter">  • Ранковий брифінг (9:00)</text>
+  <text x="78" y="366" fill="#1a1a2e" font-size="11" font-family="Inter">  • Стендап з командою</text>
+  <text x="78" y="379" fill="#1a1a2e" font-size="11" font-family="Inter">  • Робота над проєктом X</text>
+
+  <!-- 24/7 label -->
+  <g transform="translate(420, 100)">
+    <rect x="0" y="0" width="240" height="80" rx="12" fill="white" stroke="#10b981" stroke-width="2"/>
+    <text x="20" y="30" fill="#10b981" font-size="32" font-family="Inter">24/7</text>
+    <text x="100" y="25" fill="#1a1a2e" font-size="14" font-weight="bold" font-family="Inter">Завжди</text>
+    <text x="100" y="45" fill="#1a1a2e" font-size="14" font-weight="bold" font-family="Inter">з вами</text>
+    <text x="100" y="65" fill="#52525b" font-size="11" font-family="Inter">У телефоні</text>
+  </g>
+
+  <!-- No internet label -->
+  <g transform="translate(420, 220)">
+    <rect x="0" y="0" width="240" height="80" rx="12" fill="white" stroke="#6d28d9" stroke-width="2"/>
+    <text x="20" y="35" fill="#6d28d9" font-size="28" font-family="Inter">🔒</text>
+    <text x="80" y="25" fill="#1a1a2e" font-size="14" font-weight="bold" font-family="Inter">Приватно</text>
+    <text x="80" y="45" fill="#1a1a2e" font-size="14" font-weight="bold" font-family="Inter">і безпечно</text>
+    <text x="80" y="65" fill="#52525b" font-size="11" font-family="Inter">Дані тільки у вас</text>
+  </g>
+
+  <!-- Free label -->
+  <g transform="translate(420, 340)">
+    <rect x="0" y="0" width="240" height="80" rx="12" fill="white" stroke="#f59e0b" stroke-width="2"/>
+    <text x="20" y="40" fill="#f59e0b" font-size="28" font-weight="bold" font-family="Inter">0₴</text>
+    <text x="100" y="25" fill="#1a1a2e" font-size="14" font-weight="bold" font-family="Inter">Безкоштовно</text>
+    <text x="100" y="45" fill="#1a1a2e" font-size="14" font-weight="bold" font-family="Inter">назавжди</text>
+    <text x="100" y="65" fill="#52525b" font-size="11" font-family="Inter">Після установки</text>
+  </g>
+</svg>
