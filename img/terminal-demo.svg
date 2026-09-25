@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" fill="none">
+  <!-- Terminal window -->
+  <rect x="40" y="40" width="520" height="320" rx="12" fill="#1a1a2e"/>
+
+  <!-- Window header -->
+  <rect x="40" y="40" width="520" height="40" rx="12" fill="#0f0f1e"/>
+  <circle cx="65" cy="60" r="6" fill="#ef4444"/>
+  <circle cx="85" cy="60" r="6" fill="#f59e0b"/>
+  <circle cx="105" cy="60" r="6" fill="#10b981"/>
+  <text x="300" y="65" text-anchor="middle" fill="#52525b" font-size="12" font-family="monospace">~/.hermes-install</text>
+
+  <!-- Terminal content -->
+  <g font-family="monospace" font-size="13">
+    <!-- User prompt -->
+    <text x="65" y="115" fill="#10b981">$</text>
+    <text x="85" y="115" fill="#e4e4e7">hermes chat</text>
+
+    <!-- System response -->
+    <text x="65" y="150" fill="#a78bfa">╭───────────────────────────────╮</text>
+    <text x="65" y="170" fill="#a78bfa">│</text>
+    <text x="85" y="170" fill="#e4e4e7">Hermes Agent v0.19.0  </text>
+    <text x="65" y="190" fill="#a78bfa">│</text>
+    <text x="85" y="190" fill="#e4e4e7">Model: mistral-large-2-instruct</text>
+    <text x="65" y="210" fill="#a78bfa">╰───────────────────────────────╯</text>
+
+    <!-- User message -->
+    <text x="65" y="245" fill="#a78bfa">You:</text>
+    <text x="65" y="265" fill="#e4e4e7">Напиши план запуску онлайн-курсу</text>
+    <text x="65" y="283" fill="#e4e4e7">з бюджетом 50 тис грн</text>
+
+    <!-- Assistant response -->
+    <text x="65" y="315" fill="#f59e0b">Hermes:</text>
+    <text x="65" y="333" fill="#e4e4e7">Ось покроковий план на 90 днів...</text>
+  </g>
+
+  <!-- Cursor -->
+  <rect x="68" y="338" width="8" height="14" fill="#10b981">
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+  </rect>
+</svg>
