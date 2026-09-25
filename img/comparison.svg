@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <!-- Background -->
+  <rect width="400" height="300" fill="#faf5ff"/>
+
+  <!-- ChatGPT icon (left) -->
+  <g transform="translate(40, 100)">
+    <circle cx="60" cy="60" r="50" fill="#10a37f"/>
+    <text x="60" y="68" text-anchor="middle" fill="white" font-size="14" font-weight="bold" font-family="Inter">ChatGPT</text>
+    <text x="60" y="85" text-anchor="middle" fill="white" font-size="9" font-family="Inter">$20/міс</text>
+    <!-- Lock icon overlay -->
+    <circle cx="95" cy="25" r="14" fill="#ef4444"/>
+    <text x="95" y="30" text-anchor="middle" fill="white" font-size="16">🔒</text>
+  </g>
+
+  <!-- Arrow -->
+  <path d="M 180 160 L 220 160" stroke="#6d28d9" stroke-width="3" stroke-dasharray="6,4"/>
+  <polygon points="220,155 230,160 220,165" fill="#6d28d9"/>
+
+  <!-- Your assistant (right) -->
+  <g transform="translate(240, 100)">
+    <circle cx="60" cy="60" r="50" fill="#6d28d9"/>
+    <text x="60" y="65" text-anchor="middle" fill="white" font-size="13" font-weight="bold" font-family="Inter">Hermes</text>
+    <text x="60" y="82" text-anchor="middle" fill="white" font-size="9" font-family="Inter">0 грн</text>
+    <!-- Unlock icon -->
+    <circle cx="95" cy="25" r="14" fill="#10b981"/>
+    <text x="95" y="30" text-anchor="middle" fill="white" font-size="14">✓</text>
+  </g>
+
+  <!-- Labels -->
+  <text x="100" y="220" text-anchor="middle" fill="#52525b" font-size="13" font-family="Inter">Дані на серверах</text>
+  <text x="100" y="240" text-anchor="middle" fill="#52525b" font-size="13" font-family="Inter">OpenAI</text>
+
+  <text x="300" y="220" text-anchor="middle" fill="#52525b" font-size="13" font-family="Inter">Дані у вас</text>
+  <text x="300" y="240" text-anchor="middle" fill="#52525b" font-size="13" font-family="Inter">на вашому ПК</text>
+</svg>
